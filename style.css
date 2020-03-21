@@ -4,7 +4,6 @@
 
 /*********************************************/
 /* 基本 */
-
 html {
     font-size: 1em;
     font-family: 'Sawarabi Gothic', sans-serif;
@@ -21,7 +20,7 @@ html {
 }
 
 /*********************************************/
-/* タイムライン */
+/* メイン */
 .main {
     position: relative;
     margin: 0em 0em 0em 0em;
@@ -32,13 +31,13 @@ html {
 .main_table  {
 }
 
-/* 左 時間とか */
+/* 左 */
 .main_table th  {   
     width: 10em;
     text-align: left;
 }
 
-/* 右 メインの文字列 */
+/* 右 */
 .main_table td  {   
     position: relative;
     padding: 1em;
