@@ -1,0 +1,70 @@
+/*********************************************/
+/* フォント */
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap');
+
+/*********************************************/
+/* 基本 */
+
+html {
+    font-size: 1em;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #aaa;
+    background-color: #000;
+}
+
+/*********************************************/
+/* ヘッダー */
+.header {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*********************************************/
+/* タイムライン */
+.main {
+    position: relative;
+    margin: 0em 0em 0em 0em;
+}
+
+/*********************************************/
+/* テーブル */
+.main_table  {
+}
+
+/* 左 時間とか */
+.main_table th  {   
+    width: 10em;
+    text-align: left;
+}
+
+/* 右 メインの文字列 */
+.main_table td  {   
+    position: relative;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 16px;
+    display: inline-block;
+    font-size: 1.1em;
+    color: #eee;
+    background: #555;
+}
+
+/* 狭いとき */
+@media only screen and (max-width:600px){
+    .main_table {
+    }
+
+    .main_table th {
+        display: block;
+    }
+
+    .main_table td {
+        display: block;
+    }
+
+    .main_table tr:first-child th {
+    }
+}
+
+/* EOF */
