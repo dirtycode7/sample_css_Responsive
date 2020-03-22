@@ -5,6 +5,7 @@
 /*********************************************/
 /* 基本 */
 html {
+    position: relative;
     font-size: 1em;
     font-family: 'Sawarabi Gothic', sans-serif;
     color: #aaa;
@@ -17,49 +18,61 @@ html {
     font-size: 2em;
     font-weight: bolder;
     text-align: center;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+    background-color: #222;
 }
 
 /*********************************************/
 /* メイン */
 .main {
-    position: relative;
-    margin: 0em 0em 0em 0em;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+    background-color: #222;
 }
 
 /*********************************************/
 /* テーブル */
 .main_table  {
+    padding: 1em;
+    background-color: #444;
 }
 
 /* 左 */
 .main_table th  {   
     width: 10em;
     text-align: left;
+    background-color: #666;
 }
 
 /* 右 */
 .main_table td  {   
     position: relative;
-    padding: 1em;
+    padding: 0.5em;
     margin-bottom: 1em;
     border-radius: 16px;
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 2em;
     color: #eee;
     background: #555;
 }
 
 /* 狭いとき */
 @media only screen and (max-width:600px){
+    .header {
+        color: #e00;
+    }
     .main_table {
     }
 
     .main_table th {
         display: block;
+        color: #0e0;
     }
 
     .main_table td {
         display: block;
+        color: #00e;
     }
 
     .main_table tr:first-child th {
